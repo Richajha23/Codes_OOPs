@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+struct employe
+{
+int age;
+float salary;
+char name[30];
+}p1;
+int main()
+{
+  cout<<"enter the detail of employe";
+  cin>>p1.age>>p1.salary>>p1.name;
+  cout<<"print the detail of employe";
+  cout<<p1.age<<p1.salary<<p1.name<<endl;
+  return 0;
+}
