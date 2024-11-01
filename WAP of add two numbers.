@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+class Mathematics
+{
+int a, b;
+public:
+void input()
+{
+  cin>>a>>b;
+}
+void add()
+{
+  cout<<a+b<<endl;
+}};
+int main()
+{
+  Mathematics A1;
+  A1.input();
+  A1.add();
+  return 0;
+}
