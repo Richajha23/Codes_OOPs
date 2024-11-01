@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class A
+{
+int a,b;
+public:
+A(int a, int b)
+{
+  this->a=a;
+  this->b=b;
+}
+void display()
+{
+  cout<<a<<b;
+  cout<<this;
+}};
+int main()
+{
+  A c(40,50);
+  c.display();
+  return 0;
+}
