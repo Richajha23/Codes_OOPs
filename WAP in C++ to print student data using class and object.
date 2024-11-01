@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+class student
+{
+public:
+char name[30];
+int rollno;
+float marks;
+void getdata()
+{
+  cout<<"enter name: ";
+cin>> name;
+  cout<<"enter rollno: ";
+    cin>> rollno;
+  cout<<"enter marks: ";
+    cin>> marks;
+}
+void display()
+{
+  cout << "\nName: " << name;
+  cout << "\nRoll Number: " << rollno;
+  cout << "\nMarks: " << marks << endl;
+      }
+  };
+  int main()
+  {
+    student s;
+    s.getdata();
+    s.display();
+    return 0;
+    };
+
